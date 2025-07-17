@@ -131,7 +131,7 @@ Please change the parent <Route path="${U}"> to <Route path="${U==="/"?"*":`${U}
         left-1/2 transform -translate-x-1/2 lg:left-1/4 lg:-translate-x-3/4 
         flex items-center justify-center lg:justify-start gap-1.5 xs:gap-2`,children:Ya.map((A,k)=>d.jsx("button",{onClick:()=>m(k),className:`
               rounded-full transition-all duration-200
-              ${k===n?"h-2.5 w-2.5 lg:h-3 lg:w-3 bg-soft-black/80":"h-2 w-2 lg:h-2.5 lg:w-2.5 bg-soft-black/60 hover:bg-soft-black/70"}
+              ${k===n?"h-2 w-2 bg-soft-black/80":"h-1.5 w-1.5 bg-soft-black/60 hover:bg-soft-black/70"}
             `,"aria-label":`Go to slide ${k+1}`},k))})]})},rc=({rating:n})=>{const u=Math.floor(n),s=n%1>=.5;return d.jsx(d.Fragment,{children:[...Array(5)].map((o,c)=>c<u?d.jsx(F1,{className:"text-yellow-400"},c):c===u&&s?d.jsx(Z1,{className:"text-yellow-400"},c):d.jsx(K1,{className:"text-gray-300"},c))})},lg=({product:n,isWholePage:u=!1,sourcePage:s=null})=>{const c=((p,v)=>`${p}-${v}`.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/(^-|-$)/g,""))(n.brand,n.name),h=s?`/products/${c}?from=${encodeURIComponent(s)}`:`/products/${c}`;return d.jsxs("div",{className:"flex-shrink-0 snap-start",children:[d.jsxs(st,{to:h,children:[d.jsx("div",{className:`${u?"w-full aspect-square p-10 sm:p-9":"h-60 w-60 p-8"}
           mb-3 flex items-center justify-center rounded-2xl 
           bg-bg-gray group relative overflow-hidden`,style:u?{aspectRatio:"1 / 1"}:{},children:d.jsx("img",{src:n.img[0],alt:n.name,className:`h-full w-full object-contain

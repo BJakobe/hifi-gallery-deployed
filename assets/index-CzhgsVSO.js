@@ -123,9 +123,9 @@ Please change the parent <Route path="${U}"> to <Route path="${U==="/"?"*":`${U}
                 py-6 lg:py-12 
                 h-full`,children:d.jsxs("div",{className:"flex flex-col h-full lg:justify-center lg:gap-4 lg:sm:gap-6",children:[d.jsx("h1",{className:`font-integralCf text-balance leading-none
                            text-[clamp(2.5rem,4vw,4.5rem)]
-                           mb-4 sm:mb-6 lg:mb-0`,children:A.heading}),d.jsx("div",{className:"flex-1 flex items-center lg:flex-none lg:block",children:d.jsx("p",{className:"text-soft-black/70 lg:leading-relaxed max-w-prose mb-4 sm:mb-6 lg:mb-0",children:A.body})}),d.jsx(st,{to:A.link,className:"inline-block mt-6 lg:mt-12",children:d.jsx("button",{className:`w-full xs:w-4/5 sm:w-3/5 lg:w-1/2 xl:w-2/5 
-                      2xl:w-1/3 mx-auto lg:mx-0 min-w-[140px] max-w-[240px] 
-                      rounded-full bg-hfg-yellow px-6 py-3.5 sm:py-4 
+                           mb-4 sm:mb-6 lg:mb-0`,children:A.heading}),d.jsx("div",{className:"flex-1 flex items-center lg:flex-none lg:block",children:d.jsx("p",{className:"text-soft-black/70 lg:leading-relaxed max-w-prose mb-4 sm:mb-6 lg:mb-0",children:A.body})}),d.jsx(st,{to:A.link,className:"inline-block mt-6 lg:mt-12 mx-auto lg:mx-0",children:d.jsx("button",{className:`w-full lg:w-1/2 xl:w-2/5 
+                      2xl:w-1/3 min-w-[140px] max-w-[240px] 
+                      rounded-full bg-hfg-yellow px-16 py-3.5 sm:py-4 
                       text-sm xs:text-base font-medium transition-all 
                       duration-200 hover:bg-hfg-yellow/70`,children:A.btnMessage})})]})}),d.jsx("div",{className:"order-1 lg:order-2 h-full relative overflow-hidden",children:d.jsx("img",{src:A.img,alt:`Slide ${k+1}`,className:"w-full h-64 sm:h-80 md:h-full object-cover object-center",loading:k===0?"eager":"lazy"})})]},A.id))}),d.jsx("div",{className:`absolute bottom-4 lg:bottom-10 
         left-1/2 transform -translate-x-1/2 lg:left-1/4 lg:-translate-x-3/4 
